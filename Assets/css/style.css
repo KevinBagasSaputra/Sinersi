@@ -1,0 +1,106 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, serif;
+}
+
+.nav-head{
+    background-color: #06647B;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+
+    align-content: center;
+}.nav-head p{
+    color: white;
+    font-size: 0.8em;
+}.nav-head p marquee{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* Navbar START */
+    nav{
+        width: 100%;
+        background-color: white;
+    }
+
+    nav .container{
+        padding: 10px;
+    }
+
+    nav .container ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    nav .container ul li{
+        list-style-type: none;
+        align-content: center;
+    }
+
+    nav .container ul li a{
+        color: black;
+        text-decoration: none;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+
+        transition: all ease-in 550ms;
+    } nav .container ul li a:hover{
+
+        color: white;
+        text-shadow: 2px 2px 1px #62B1AB;
+        transition: all ease-in-out 10ms;
+    }
+
+    nav .container ul li .judul{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+/* Navbar END */
+
+
+/* Hero START */
+    .hero{
+        width: 100%;
+        background-color: #62B1AB;
+    }
+
+    .hero .container{
+        padding: 10px;
+    }
+
+    .hero .container ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero .container ul img{
+        min-width: 300px;
+        max-width: 600px;
+
+        object-fit: cover;
+    }
+
+        /* Hero Text */
+            .hero .container ul .text{
+                align-content: center;
+            }.hero .container ul .text h2{
+                width: 100%;
+                color: white;
+                font-size: 3rem;
+            }.hero .container ul .text p{
+                width: 100%;
+                color: white;
+                font-size: 1rem;
+            }
+        /* Hero Text */
+    
+/* Hero END */
