@@ -90,7 +90,7 @@ body{
     .hero{
         width: 100%;
         /* background-color: #62B1AB; */
-        background-image: url('../latar-hero/banner-bg.jpg');
+        background-image: url('https://github.com/KevinBagasSaputra/Sinersi/blob/main/Assets/img/latar-hero/banner-bg.jpg?raw=true');
         background-size: cover;
         background-repeat: no-repeat;
 
